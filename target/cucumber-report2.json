@@ -1,0 +1,230 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Validate multiple fields21",
+        "description": "",
+        "id": "create-account-on-facebook2;validate-multiple-fields21;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6071763500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the Facebook login page",
+            "match": {
+              "location": "DatadrivenSD.user_is_on_the_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1109180500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"Tom\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 13
+                }
+              ],
+              "location": "DatadrivenSD.user_enters_first_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1037279301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"Jerry\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jerry",
+                  "offset": 13
+                }
+              ],
+              "location": "DatadrivenSD.user_enters_surname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019509600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User checks user \"Tom\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 18
+                }
+              ],
+              "location": "DatadrivenSD.user_checks_user_first_name_is_present(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1017907499,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Mobile Field should be blank",
+            "match": {
+              "location": "DatadrivenSD.User_mobile_field_should_be_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1074525500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close Browser",
+            "match": {
+              "location": "DatadrivenSD.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Validate multiple fields21",
+        "description": "",
+        "id": "create-account-on-facebook2;validate-multiple-fields21;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5812269401,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the Facebook login page",
+            "match": {
+              "location": "DatadrivenSD.user_is_on_the_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1055770899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 13
+                }
+              ],
+              "location": "DatadrivenSD.user_enters_first_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1032430799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"Roger\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger",
+                  "offset": 13
+                }
+              ],
+              "location": "DatadrivenSD.user_enters_surname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019722000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User checks user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "DatadrivenSD.user_checks_user_first_name_is_present(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1018801100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Mobile Field should be blank",
+            "match": {
+              "location": "DatadrivenSD.User_mobile_field_should_be_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 968363500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close Browser",
+            "match": {
+              "location": "DatadrivenSD.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account on Facebook2",
+    "description": "As a new user you need to open Facebook home page and do the validations",
+    "id": "create-account-on-facebook2",
+    "keyword": "Feature",
+    "uri": "Datadriven.feature"
+  }
+]
